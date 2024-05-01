@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.container h2{
+  margin: 12px;
+  color: purple;
+}
+form {
+  width: 100%;
+}
+input {
+  border-radius: 12px;
+  padding: 5px;
+  background-color: rgb(207, 207, 207);
+  border-color: none;
+  border: none;
+  box-shadow: 0 0 10px rgba(1, 2, 10, 50);
+  overflow: hidden;
+}
+form .primary-btn {
+  background: rgb(214, 89, 214);
+  color: white;
+  padding: 5px;
+  margin-left: 12px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(1, 2, 10, 50);
+}
+.profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile-box {
+  margin: 15px;
+  padding: 2rem 3rem;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(1, 2, 5, 10);
+  transition: 0.5s ease-in;
+  background: linear-gradient(120deg, #c3c3c9, #00feba, #5b548a);
+  border-radius: 10px;
+}
+
+.profile-box:hover {
+  background: linear-gradient(120deg, #c3c3c9, #74efce, #9183ea);
+  box-shadow: 0 0 1rem rgba(1, 2, 10, 50);
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.avatar img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.left h3 {
+  font-size: 18px;
+  color: rgba(36, 95, 172, 0.829);
+}
+
+.primary-btn {
+  background: purple;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.status {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 2fr));
+}
+.status h4{
+  margin-top: 15px;
+}
+.status p{
+  margin-top: 5px;
+}
+.status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about p,h3{
+  margin:0;
+}
